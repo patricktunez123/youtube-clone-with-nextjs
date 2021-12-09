@@ -1,0 +1,8 @@
+.app {
+  height: 100vh;
+  display: flex;
+  .app_container {
+    background: $darkBlack;
+    min-width: 84.5vw;
+  }
+}
