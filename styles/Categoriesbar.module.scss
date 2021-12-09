@@ -1,8 +1,7 @@
-.navbar {
+.categoriesbar {
   background: $primaryBlack;
   min-height: 8vh;
   border-bottom: 1px solid $borderColor;
   position: sticky;
-  top: 0;
-  z-index: 999;
+  top: 8vh;
 }

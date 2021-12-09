@@ -3,6 +3,8 @@
   display: flex;
   .app_container {
     background: $darkBlack;
+    overflow-y: scroll;
     min-width: 84.5vw;
+    height: 100%;
   }
 }

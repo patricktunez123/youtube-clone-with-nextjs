@@ -3,6 +3,7 @@
 @import "./Layout.module.scss";
 @import "./Navbar.module.scss";
 @import "./Sidebar.module.scss";
+@import "./Categoriesbar.module.scss";
 
 html,
 body {
@@ -33,4 +34,21 @@ p,
 span {
   padding: 0;
   margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 0.6em;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $darkWhite;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: $white;
 }
