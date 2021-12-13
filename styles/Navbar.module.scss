@@ -1,7 +1,10 @@
-.navbar {
+.app_navbar {
   background: $primaryBlack;
   min-height: 8vh;
   border-bottom: 1px solid $borderColor;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   position: sticky;
   top: 0;
   z-index: 999;

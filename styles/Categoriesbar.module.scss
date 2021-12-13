@@ -1,7 +1,17 @@
 .categoriesbar {
   background: $primaryBlack;
-  min-height: 8vh;
+  height: 8vh;
   border-bottom: 1px solid $borderColor;
   position: sticky;
   top: 8vh;
+  z-index: 100;
+  .aka_yt_slide {
+    min-height: 100% !important;
+  }
+}
+
+.c_container_style {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

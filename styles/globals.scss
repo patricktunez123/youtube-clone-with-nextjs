@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 @import "./colors";
+@import "./Variables.scss";
 @import "./Layout.module.scss";
 @import "./Navbar.module.scss";
 @import "./Sidebar.module.scss";
 @import "./Categoriesbar.module.scss";
+@import "./Paddings.scss";
 
 html,
 body {
@@ -34,6 +36,10 @@ p,
 span {
   padding: 0;
   margin: 0;
+}
+
+.container {
+  padding: $appPadding;
 }
 
 ::-webkit-scrollbar {
