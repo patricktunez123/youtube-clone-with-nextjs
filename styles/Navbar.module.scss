@@ -8,4 +8,23 @@
   position: sticky;
   top: 0;
   z-index: 999;
+  .nav_icon {
+    font-size: 1.7rem;
+    cursor: pointer;
+  }
+  .nav_search {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+  }
+  .nav_profile {
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+    .nav_profile_img {
+      width: 40px !important;
+      height: 40px !important;
+      cursor: pointer;
+    }
+  }
 }
